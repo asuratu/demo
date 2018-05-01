@@ -1,0 +1,118 @@
+.main_banner{ border-bottom: 2px solid #666; }
+.main_banner:hover .swiper-button-prev,.main_banner:hover .swiper-button-next{ opacity: 1; }
+.swiper-button-prev{ margin-top: -30px; left: 55px; width: 30px; height: 60px; background: url(/assets/static/images/left.png) no-repeat center; opacity: 0; transition: all 0.5s ease; -webkit-transition: all 0.5s ease; }
+.swiper-button-next{ margin-top: -30px; right: 55px; width: 30px; height: 60px; background: url(/assets/static/images/right.png) no-repeat center; opacity: 0; transition: all 0.5s ease; -webkit-transition: all 0.5s ease; }
+.swiper-slide img{ width: 100%; }
+.main_banner .swiper-pagination span{ width: 19px; height: 3px; background: #fff; border-radius: 0; -webkit-transition:all ease 0.3s; transition:all ease 0.3s; }
+.main_banner .swiper-pagination .swiper-active-switch{ height: 5px; background: #f67400; }
+.phone_banner{ display: none; position: relative; }
+.swiper-pagination2{ position: absolute; bottom: 10px; width: 100%; text-align: center; }
+.swiper-pagination2 span{ width: 7px; height: 7px; background: #fff; display: inline-block; border-radius: 10px; margin: 0 4px; }
+.swiper-pagination2 .swiper-active-switch{ background: #f67400; }
+
+.product{ margin-bottom: 80px; border-bottom: 1px solid #e5e5e5; }
+.product .tit{ border-bottom: 1px solid #e5e5e5; }
+.product h2{ position: relative; font-size: 30px; color: #333; font-weight: normal; margin: 36px 0; padding-left: 25px; float: left; }
+.product h2 i{ width: 4px; height: 20px; background: #f67400; top: 50%; margin-top: -10px; position: absolute; left: 0; }
+.product .tit .btn{ float: right; width: 125px; height: 34px; line-height: 34px; text-align: center; border:1px solid #cbcbcb; border-radius: 50px; margin-top: 36px; }
+.product .tit .btn:hover{ background: #f67400; border: 1px solid #f67400; color: #fff; }
+.product .sub_menu{ position: absolute; left: 0; }
+.product .sub_menu a{ display: block; height: 177px; width: 198px; line-height: 177px; text-align: center; background: #f5f5f5; -webkit-transition:all ease 0.3s; transition:all ease 0.3s; }
+.product .sub_menu a:hover,.product .sub_menu a.active{ background: #f67400; color: #fff; } 
+.product .list{ padding-left: 198px; position: relative; }
+.product .list ul{ float: right; width: 100%; padding-top: 30px; height: 503px; overflow-y: auto; }
+.product .list li{ float: left; width: 30%; margin-left: 3.333%; margin-bottom: 30px; height: 220px; }
+.product .list li .img{ float: left; width: 45%; height: 100%; overflow: hidden; }
+.product .list li .img span{ width: 1px; height: 100%; margin-left: -1px; vertical-align: middle; display: inline-block; }
+.product .list li .img img{ width: 100%; vertical-align: middle; -webkit-transition:all ease 0.5s; transition:all ease 0.5s; }
+.product .list li .img img:hover{ transform: scale(1.1); -webkit-transform: scale(1.1); }
+.product .list li .txt{ float: right; width: 45%; padding-top: 30px; box-sizing: border-box;}
+.product .list li .txt h3{ font-size: 18px; color: #333; margin-bottom: 14px; font-weight: normal;max-height: 25px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.product .list li .txt p{ line-height: 22px; height: 85px; margin-bottom: 28px; overflow: hidden; }
+.product .list li:hover .txt a{ color: #f67400; }
+.product .list li:hover .txt h3{ color: #f67400; }
+
+.news{ padding-top: 50px; padding-bottom: 50px; }
+.news .swiper-container2{ overflow: hidden; margin-bottom: 45px; height: 310px; position: relative;}
+.news .imgbox{ overflow: hidden; margin-bottom: 35px; }
+.news .imgbox img{ width: 100%; -webkit-transition:all ease 2s; transition:all ease 2s; }
+.news .imgbox img:hover{ transform: scale(1.1); -webkit-transform: scale(1.1); }
+.news h3{ font-size: 16px; color: #333; margin-bottom: 14px; font-weight: normal; }
+.news .padding:hover h3{ color: #f67400; }
+.news p{ line-height: 22px; color: #888; }
+.news .btn{ display: inline-block; width: 125px; height: 34px; line-height: 34px; text-align: center; border:1px solid #cbcbcb; border-radius: 50px; }
+.news .btn:hover{ background: #f67400; border: 1px solid #f67400; color: #fff; }
+.news .padding{ padding: 0 40px; }
+.news .all{ position: relative; }
+.news .swiper-button-next2{ position: absolute; right: 70px; top: 50%; margin-top: -30px; width: 30px; height: 60px; background: url(/assets/static/images/right2.png) no-repeat center; cursor: pointer; }
+.news .swiper-button-prev2{ position: absolute; left: 70px; top: 50%; margin-top: -30px; width: 30px; height: 60px; background: url(/assets/static/images/left2.png) no-repeat center; cursor: pointer; }
+
+@media only screen and (max-width: 1900px) {
+ .news .padding{ padding: 0 20px;}
+.product .list li .txt p{ line-height: 22px; height: 45px; margin-bottom: 25px; overflow: hidden; }
+}
+@media only screen and (max-width: 1660px) {
+    .news .padding{ padding: 0 20px;}
+.product .list li .txt p{ line-height: 22px; height: 45px; margin-bottom: 14px; overflow: hidden; }
+}
+@media only screen and (max-width: 1440px) {
+	.product .list li .txt p{ line-height: 22px; height: 41px; margin-bottom: 18px; overflow: hidden; }
+    .product .sub_menu a{ width: 158px; }
+    .product .list{ padding-left: 158px; }
+}
+@media only screen and (max-width: 1366px) {
+	.product .list li .txt p{ line-height: 22px; height: 65px; margin-bottom: 40px; overflow: hidden; }
+    .product .list li{ width: 48%; margin-left: 2%; }
+}
+@media only screen and (max-width: 1024px) {
+	/*徐永杰修改的手机端产品展示样式开始*/
+	.product .list li .txt h3{ font-size: 18px; color: #333; margin-bottom: 30px; font-weight: normal;}
+	.product .list li .txt p{ height: 60px;margin-bottom: 12px; }
+	.product .list li .txt{ padding-top: 8px; }
+	.product .list li{ height: 170px; }
+	/*徐永杰修改的手机端产品展示样式结束*/
+    .product h2{ font-size: 26px; margin: 15px 0; }
+    .product .tit .btn{ margin-top: 15px; }
+}
+@media only screen and (max-width: 768px) {
+	/*徐永杰修改的手机端产品展示样式开始*/
+	.product .list li .txt h3{ font-size: 13px; color: #333; margin-bottom: 23px; font-weight: normal;max-height: 35px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; }
+	.product .list li .txt p{ height: 18px;margin-bottom: 5px; }
+	.product .list li .txt{ padding-top: 8px; }
+	.product .list li{ height: 95px; }
+	/*徐永杰修改的手机端产品展示样式结束*/
+    .product .list{ padding-left: 110px; }
+    .product .list li{ height: 180px; }
+    .product .list li .txt{ padding-top: 20px; }
+    .product .list ul{ height: 420px; }
+    .product .sub_menu a{ width: 100px; height: 150px; line-height: 150px; }
+    .news p{ height: 66px; overflow: hidden; }
+    .news .swiper-container2{ height: 260px; }
+}
+@media only screen and (max-width: 510px) {
+	/*徐永杰修改的手机端产品展示样式开始*/
+	.product .list li .txt h3{ font-size: 13px; color: #333; margin-bottom: 23px; font-weight: normal;max-height: 35px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; }
+	.product .list li .txt p{ height: 18px;margin-bottom: 5px; }
+	.product .list li .txt{ padding-top: 8px; }
+	.product .list li{ height: 95px; }
+	/*徐永杰修改的手机端产品展示样式结束*/
+    .product h2{ font-size: 18px; }
+    .product .tit .btn{ margin-top: 8px; width: 100px; }
+    .product .sub_menu{ width: 100%; top: 0; }
+    .product .sub_menu a{ display: inline-block; width: 32.333%; height: 50px; line-height: 50px; }
+    .product .list{ padding: 60px 0 0 0; }
+    .product .list ul{ padding-top: 0; }
+    .product .list li{ width: 50%; margin-left: 0; }
+    .product .list li .txt{ width: 50%; padding-right: 10px; box-sizing: border-box; }
+    .news{ padding: 30px 0; }
+    .news .swiper-container2{ margin-bottom: 20px; }
+    .news .btn{ width: 100px; }
+    .product{ margin-bottom: 40px; }
+    .phone_banner{ display: block; }
+    .main_banner{ display: none; }
+}
+
+
+
+
+

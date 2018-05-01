@@ -1,0 +1,42 @@
+执行日期：2018-04-10 17:08:46
+SELECT a.*, ars.*, c.`level`, c.`id_tree`, c.`parent_id`,c.`root_id`, c.`is_part`, c.`channel_type`, c.`nav_type` FROM `px_archives` a, `px_archives_substance` ars, `px_category` c WHERE a.`archives_id` = 21 AND a.`is_display` = 1 AND a.`archives_id` = ars.`archives_id` AND a.`category_id` = c.`category_id` AND c.`is_display` = 1 LIMIT 0, 1
+执行日期：2018-04-10 17:08:47
+SELECT * FROM `px_file` WHERE `file_id` IN() AND `is_display` = 1 ORDER BY `sort` DESC
+执行日期：2018-04-10 17:08:47
+SELECT * FROM `px_archives` WHERE `archives_id` IN() AND `is_display` = 1 ORDER BY `sort` DESC
+执行日期：2018-04-10 17:09:30
+SELECT a.*, ars.*, c.`level`, c.`id_tree`, c.`parent_id`,c.`root_id`, c.`is_part`, c.`channel_type`, c.`nav_type` FROM `px_archives` a, `px_archives_substance` ars, `px_category` c WHERE a.`archives_id` = 21 AND a.`is_display` = 1 AND a.`archives_id` = ars.`archives_id` AND a.`category_id` = c.`category_id` AND c.`is_display` = 1 LIMIT 0, 1
+执行日期：2018-04-10 17:09:30
+SELECT * FROM `px_file` WHERE `file_id` IN(17) AND `is_display` = 1 ORDER BY `sort` DESC
+执行日期：2018-04-10 17:09:30
+SELECT * FROM `px_archives` WHERE `archives_id` IN() AND `is_display` = 1 ORDER BY `sort` DESC
+执行日期：2018-04-10 17:09:47
+SELECT a.*, ars.*, c.`level`, c.`id_tree`, c.`parent_id`,c.`root_id`, c.`is_part`, c.`channel_type`, c.`nav_type` FROM `px_archives` a, `px_archives_substance` ars, `px_category` c WHERE a.`archives_id` = 21 AND a.`is_display` = 1 AND a.`archives_id` = ars.`archives_id` AND a.`category_id` = c.`category_id` AND c.`is_display` = 1 LIMIT 0, 1
+执行日期：2018-04-10 17:09:48
+SELECT * FROM `px_file` WHERE `file_id` IN(17) AND `is_display` = 1 ORDER BY `sort` DESC
+执行日期：2018-04-10 17:09:48
+SELECT * FROM `px_archives` WHERE `archives_id` IN() AND `is_display` = 1 ORDER BY `sort` DESC
+执行日期：2018-04-10 17:09:51
+SELECT a.*, ars.*, c.`level`, c.`id_tree`, c.`parent_id`,c.`root_id`, c.`is_part`, c.`channel_type`, c.`nav_type` FROM `px_archives` a, `px_archives_substance` ars, `px_category` c WHERE a.`archives_id` = 21 AND a.`is_display` = 1 AND a.`archives_id` = ars.`archives_id` AND a.`category_id` = c.`category_id` AND c.`is_display` = 1 LIMIT 0, 1
+执行日期：2018-04-10 17:09:55
+SELECT a.*, ars.*, c.`level`, c.`id_tree`, c.`parent_id`,c.`root_id`, c.`is_part`, c.`channel_type`, c.`nav_type` FROM `px_archives` a, `px_archives_substance` ars, `px_category` c WHERE a.`archives_id` = 21 AND a.`is_display` = 1 AND a.`archives_id` = ars.`archives_id` AND a.`category_id` = c.`category_id` AND c.`is_display` = 1 LIMIT 0, 1
+执行日期：2018-04-10 17:09:59
+SELECT a.*, ars.*, c.`level`, c.`id_tree`, c.`parent_id`,c.`root_id`, c.`is_part`, c.`channel_type`, c.`nav_type` FROM `px_archives` a, `px_archives_substance` ars, `px_category` c WHERE a.`archives_id` = 21 AND a.`is_display` = 1 AND a.`archives_id` = ars.`archives_id` AND a.`category_id` = c.`category_id` AND c.`is_display` = 1 LIMIT 0, 1
+执行日期：2018-04-10 17:10:11
+SELECT a.*, ars.*, c.`level`, c.`id_tree`, c.`parent_id`,c.`root_id`, c.`is_part`, c.`channel_type`, c.`nav_type` FROM `px_archives` a, `px_archives_substance` ars, `px_category` c WHERE a.`archives_id` = 21 AND a.`is_display` = 1 AND a.`archives_id` = ars.`archives_id` AND a.`category_id` = c.`category_id` AND c.`is_display` = 1 LIMIT 0, 1
+执行日期：2018-04-10 17:10:11
+SELECT * FROM `px_file` WHERE `file_id` IN(17) AND `is_display` = 1 ORDER BY `sort` DESC
+执行日期：2018-04-10 17:10:11
+SELECT * FROM `px_archives` WHERE `archives_id` IN() AND `is_display` = 1 ORDER BY `sort` DESC
+执行日期：2018-04-10 17:10:52
+SELECT a.*, ars.*, c.`level`, c.`id_tree`, c.`parent_id`,c.`root_id`, c.`is_part`, c.`channel_type`, c.`nav_type` FROM `px_archives` a, `px_archives_substance` ars, `px_category` c WHERE a.`archives_id` = 21 AND a.`is_display` = 1 AND a.`archives_id` = ars.`archives_id` AND a.`category_id` = c.`category_id` AND c.`is_display` = 1 LIMIT 0, 1
+执行日期：2018-04-10 17:10:52
+SELECT * FROM `px_file` WHERE `file_id` IN() AND `is_display` = 1 ORDER BY `sort` DESC
+执行日期：2018-04-10 17:10:52
+SELECT * FROM `px_archives` WHERE `archives_id` IN(17) AND `is_display` = 1 ORDER BY `sort` DESC
+执行日期：2018-04-10 17:12:08
+SELECT a.*, ars.*, c.`level`, c.`id_tree`, c.`parent_id`,c.`root_id`, c.`is_part`, c.`channel_type`, c.`nav_type` FROM `px_archives` a, `px_archives_substance` ars, `px_category` c WHERE a.`archives_id` = 21 AND a.`is_display` = 1 AND a.`archives_id` = ars.`archives_id` AND a.`category_id` = c.`category_id` AND c.`is_display` = 1 LIMIT 0, 1
+执行日期：2018-04-10 17:12:08
+SELECT * FROM `px_file` WHERE `file_id` IN() AND `is_display` = 1 ORDER BY `sort` DESC
+执行日期：2018-04-10 17:12:08
+SELECT * FROM `px_archives` WHERE `archives_id` IN(17) AND `is_display` = 1 ORDER BY `sort` DESC
